@@ -1,0 +1,29 @@
+{
+  "name": "mesh-interview-task",
+  "version": "1.0.0",
+  "description": "A simple API server to query basic Github data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudewad/mesh-interview-task.git"
+  },
+  "author": "Layton Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudewad/mesh-interview-task/issues"
+  },
+  "homepage": "https://github.com/dudewad/mesh-interview-task#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "module-alias": "^2.0.2"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "services": "services",
+    "routes": "routes"
+  }
+}
